@@ -1,4 +1,4 @@
-package Java_HW6.Main;
+package Java_HW6;
 
 import java.util.*;
 
