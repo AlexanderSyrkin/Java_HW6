@@ -1,4 +1,4 @@
-package org.example.seminar6.HomeWork.HW;
+package Java_HW6.Main;
 
 import java.util.*;
 
