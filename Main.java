@@ -38,7 +38,7 @@ public class Main {
             switch (a) {
                 case 1:
                     scanner.nextLine();
-                    System.out.println("Введите требуемый объем ОЗУ из доступных вариантов (8, 16, 32, 64 и 128 Gb): ");
+                    System.out.println("Введите объем ОЗУ. Доступные варианты: 8, 16, 32, 64 и 128 Gb: ");
                     int ram = scanner.nextInt();
 
                     System.out.println("\nСписок моделей ноутбуков с ОЗУ: " + ram + " Gb:\n");
@@ -52,7 +52,7 @@ public class Main {
 
                 case 2:
                     scanner.nextLine();
-                    System.out.println("Выберите объем HD из доступных вариантов (от 256, 512 и 1024 Gb): ");
+                    System.out.println("Выберите объем HD.Доступные варианты: 256, 512 и 1024 Gb: ");
                     int sizehdd = scanner.nextInt();
                     System.out.println("\nСписок моделей ноутбуков с объемом HDD " + sizehdd + " Gb:\n");
                     res = Notebook.getNotebooksHdd(notebooks, sizehdd);
@@ -63,7 +63,7 @@ public class Main {
 
                 case 3:
                     scanner.nextLine();
-                    System.out.println("Выберите ОС из доступных вариантов (Linux, MacOS, Windows): ");
+                    System.out.println("Выберите Операционную систему. Достпуные варианты: Linux, MacOS, Windows: ");
                     String os = scanner.nextLine();
                     System.out.println("\nСписок моделей ноутбуков c операционной системой: " + os + ":\n");
                     res = Notebook.getNotebooksOs(notebooks, os);
@@ -74,7 +74,7 @@ public class Main {
 
                 case 4:
                     scanner.nextLine();
-                    System.out.println("Выберите цвет из доступных вариантов (Black, Green, Gold, Grey): ");
+                    System.out.println("Выберите цвет. Доступные варианты: Black, Green, Gold, Grey: ");
                     String col = scanner.nextLine();
                     System.out.println("\nСписок расцветки моделей ноутбуков  " + col + ":\n");
                     res = Notebook.getNotebooksColor(notebooks, col);
